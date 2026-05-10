@@ -21,7 +21,7 @@ const Customer = () => {
             <div>
                 <div>
                     <p>FAQ's</p>
-                    <h2>What our customers say about their experience</h2>
+                    <h2 className='w-197.5 text-[48px] font-semibold leading-13'>What our customers say about their experience</h2>
                 </div>
                 
             </div>
