@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Btn = ({children}) => {
+const Btn = ({Tagname="button",children,...props}) => {
   return (
-    <button className='py-3.5 px-6 bg-primary font-bold text-white rounded-full'>
+    <Tagname className='py-3.5 px-6 bg-primary font-bold text-white rounded-full {...props}'>
       {children}
-    </button>
+    </Tagname>
   )
 }
 

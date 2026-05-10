@@ -1,23 +1,26 @@
 import React from 'react'
-import { CiStar } from "react-icons/ci";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slideer from '../assets/Container.png'
 
 const Card = () => {
+     const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"}
+
   return (
-    <div className='flex justify-between items-center py-6 text-[30px] font-bold leading-7.5 bg-primary text-white'>
-      <CiStar/>
-      <h1>Latest Updates</h1>
-      <CiStar />
-      <h1>New Announcements</h1>
-      <CiStar />
-      <h1>Workshop Alerts</h1>
-      <CiStar />
-      <h1>Live Notices</h1>
-      <CiStar />
-      <h1>Event Countdown</h1>
-      <CiStar />
-      <h1>Workshop Alerts</h1>
+    <div className='py-10 bg-primary'>
+      
     </div>
-  )
-}
+  );
+};
+
 
 export default Card
