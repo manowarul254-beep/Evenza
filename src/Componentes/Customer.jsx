@@ -8,7 +8,7 @@ import Accordian from './Accordian'
 const Customer = () => {
   return (
     
-    <div>
+    <div className='mb-20'>
       <Container>
         <Flex className='gap-11.75'>
             <div>

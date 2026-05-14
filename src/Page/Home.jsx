@@ -11,6 +11,8 @@ import Pannel from '../Componentes/Pannel'
 import Discover from '../Componentes/Discover'
 import PlayPart from '../Componentes/PlayPart'
 import Customer from '../Componentes/Customer'
+import Testimonial from '../Componentes/AboutPart'
+import Footer from '../Componentes/Footer'
 
 const Home = () => {
   return (
@@ -27,6 +29,8 @@ const Home = () => {
     <Discover/>
     <PlayPart/>
     <Customer/>
+    <Testimonial/>
+    <Footer/>
     </>
       
  
